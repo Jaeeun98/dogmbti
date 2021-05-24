@@ -1,7 +1,8 @@
 //list
 const qnaList = [
   {
-    q: '1. 친구가 파티를 한다고 초대장을 보냈다면?',
+    n : '1/12',
+    q: '1. 친구가 파티 초대장을 보냈을때 나의 반응은?',
     a: [
       { answer: 'a. 넘모조아~~!!! 사람들 만날 생각에 벌써부터 드릉드릉한다.', type: ['ㄸ', 'tiger', 'dragon', 'chick'] },
       { answer: 'b. 아.. 꼭 가야하나? 가기싫지만 막상 가면 잘논다.', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
@@ -9,6 +10,7 @@ const qnaList = [
     ]
   },
   {
+    n : '2/12',
     q: '2. 파티장에서 당신이 하는 행동은? ',
     a: [
       { answer: 'a. 여기도 안녕, 저기도 안녕, 여러 사람들이랑 얘기하느라 바쁘다.', type: ['mouse', 'rabbit', 'tiger', 'monkey'] },
@@ -17,6 +19,7 @@ const qnaList = [
     ]
   },
   {
+    n : '3/12',
     q: '3. 파티가 끝난 후 당신은 무슨 생각을 하나요?',
     a: [
       { answer: 'a. 아까 친해진 애들이랑 2차갈 생각에 신났다.', type: ['cow', 'rabbit', 'tiger', 'dog', 'monkey'] },
@@ -25,6 +28,7 @@ const qnaList = [
     ]
   },
   {
+    n : '4/12',
     q: '4. 앞으로 시험기간이 한 달 남은 상황에서 당신의 행동은?',
     a: [
       { answer: 'a. 한 달 동안 어떻게 공부할지 꼼꼼히 계획을 세운다." ', type: ['cow', 'tiger', 'dragon' ] },
@@ -33,6 +37,7 @@ const qnaList = [
     ]
   },
   {
+    n : '5/12',
     q: '5. 시험이 2주 앞으로 다가왔을 때 당신의 행동은?',
     a: [
       { answer: 'a. 세워놓은 계획을 점검하며, 하던대로 공부한다.', type: ['cow', 'sheep', 'dog', 'dragon', 'chick' ] },
@@ -42,6 +47,7 @@ const qnaList = [
   },
 
   {
+    n : '6/12',
     q: '6. 시험 하루전 당신의 마음은 어떤가요?',
     a: [
       { answer: 'a. 마지막 점검을 통해 헷갈리는 부분을 다시 한 번 체크한다.', type: ['dragon', 'chick', 'pig' ] },
@@ -50,6 +56,7 @@ const qnaList = [
     ]
   },
   {
+    n : '7/12',
     q: '7. 수학 공식을 외우던 중 이해가 안 되는 부분이 생겼습니다. 이때 당신의 행동은?',
     a: [
       { answer: 'a. 공식이 괜히 공식이겠어. 걍 외우자', type: ['cow', 'sheep', 'pig' ] },
@@ -58,6 +65,7 @@ const qnaList = [
     ]
   },
   {
+    n : '8/12',
     q: '8. 로또를 산 당신, 어떤 상상을 하며 길을 걷나요?',
     a: [
       { answer: 'a. 당첨되라.. 당첨되라.. 당첨되라..', type: ['mouse', 'dragon', 'chick' ] },
@@ -66,6 +74,7 @@ const qnaList = [
     ]
   },
   {
+    n : '9/12',
     q: '9. 아래 중 가장 해보고 싶은 것은 무엇인가요?',
     a: [
       { answer: 'a. 좋은 곳에 취업하기', type: ['sheep', 'mouse', 'snake', 'chick' ] },
@@ -74,6 +83,7 @@ const qnaList = [
     ]
   },
   {
+    n : '10/12',
     q: '10. 자격증 시험에 떨어진 당신에게 가장 큰 위로가 되는 말은 무엇인가요? ',
     a: [
       { answer: 'a. 괜찮아 괜찮아 처음하는데 이 성적이면 좋은거야! 그 동안 고생했어', type: ['dragon', 'chick', 'pig'] },
@@ -82,6 +92,7 @@ const qnaList = [
     ]
   },
   {
+    n : '11/12',
     q: '11. 약속 시간에 늦은 당신에게 친구가 해줬으면 하는 말은? ',
     a: [
       { answer: 'a. 진짜 미안해, 많이 기다렸지 미안해..', type: ['cow', 'dragon', 'chick', 'pig' ] },
@@ -90,6 +101,7 @@ const qnaList = [
     ]
   },
   {
+    n : '12/12',
     q: '12. 조별과제에서 발표를 끝낸 후 듣고 싶은 말은?',
     a: [
       { answer: 'a. 고생했어! 준비하느라 힘들었지ㅜ 얼마나 열심히 준비했는지 다 느껴지더라 굿굿', type: ['rabbit', 'horse', 'dragon', 'chick' ] },
