@@ -1,0 +1,22 @@
+h3 {
+    text-align: center;
+}
+h4 {
+    line-height: 1.7;
+}
+.title {
+    padding:0;
+}
+button {
+    text-align: left;
+    width:100%;
+    border:none;
+    background:#fff;
+    font-size:20px;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    padding:20px 20px;
+    cursor: pointer;
+    margin:10px;
+    border-radius:10px;
+    line-height: 1.5;
+}
