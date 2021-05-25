@@ -1,20 +1,27 @@
+body {
+    font-family: 'GmarketSansBold';
+}
 h3 {
     text-align: center;
 }
 h4 {
-    line-height: 1.7;
+    line-height: 1.5;
+    padding:40px 0;
+    font-size:20px;
 }
+
 .title {
     padding:0;
 }
 button {
     text-align: left;
-    width:100%;
+    width:90%;
     border:none;
     background:#fff;
-    font-size:20px;
+    font-size:17px;
     font-family: 'NEXON Lv1 Gothic OTF';
-    padding:20px 20px;
+    font-weight: bold;
+    padding:25px 20px;
     cursor: pointer;
     margin:10px;
     border-radius:10px;

@@ -11,7 +11,7 @@ const qnaList = [
   },
   {
     n : '2/12',
-    q: '2. 파티장에서 당신이 하는 행동은? ',
+    q: '2. 파티장에서 당신의 행동은? ',
     a: [
       { answer: 'a. 여러 사람들이랑 얘기하느라 바쁘다.', type: ['mouse', 'rabbit', 'tiger', 'monkey'] },
       { answer: 'b. 아는 애들 무리에 앉아 간간히 얘기한다.', type: ['cow', 'horse', 'snake', 'dog'] },
@@ -57,7 +57,7 @@ const qnaList = [
   },
   {
     n : '7/12',
-    q: '7. 수학 공식을 외우던 중 이해가 안 되는 부분이 생겼습니다. 이때 당신의 행동은?',
+    q: '7. 이해 안 되는 공식이 있을 때, 당신의 행동은?',
     a: [
       { answer: 'a. 공식이 괜히 공식이겠어. 걍 외우자', type: ['cow', 'sheep', 'pig' ] },
       { answer: 'b. 나중에 선생님께 여쭤보기로하고 우선 넘긴다.', type: ['tiger', 'dragon', 'chick' ] },
@@ -84,7 +84,7 @@ const qnaList = [
   },
   {
     n : '10/12',
-    q: '10. 자격증 시험에 떨어진 당신에게 가장 위로 되는 말은 무엇인가요? ',
+    q: '10. 시험에 떨어진 당신, 가장 위로 되는 말은? ',
     a: [
       { answer: 'a. 말 없이 꼭 안아준다', type: ['dragon', 'chick', 'pig'] },
       { answer: 'b. 괜찮아 그 동안 많이 힘들었지, 고생했어', type: ['mouse', 'tiger', 'horse', 'snake' ] },
