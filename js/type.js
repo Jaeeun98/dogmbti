@@ -1,8 +1,6 @@
 const type = document.querySelector('.type');
 
-
 typeAdd();
-
 
 function typeAdd(){
 
@@ -33,7 +31,5 @@ function typeAdd(){
         pdiv.appendChild(h3);
         pdiv.appendChild(iconText);
         pdiv.appendChild(text);
-        
-        
     }    
 }

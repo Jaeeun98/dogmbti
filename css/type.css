@@ -36,7 +36,10 @@ button {
     background-color: #fff;
     color:#7F47DD;
     cursor: pointer;
-    margin: 50px; 
+    margin-bottom: 50px;
+}
+button:hover {
+    text-decoration: underline;
 }
 .pTitle {
     padding: 30px;
@@ -54,8 +57,9 @@ button {
 .type div .dogIcon {
     width: 20px;
     height:20px;
-    margin:0;
+    margin:0 7px;
+    padding-top:5px;
 }
-.iconText {
+.pTitle .iconText {
     margin-bottom: 10px;
 }
