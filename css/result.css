@@ -1,0 +1,22 @@
+.again button, .copyBtn, .kakaoBtn {
+    color:#000;
+}
+.faceBtn {
+    background-color: #3b5998;
+    color:#fff;
+}
+.kakaoBtn {
+    background-color: #f1d900;
+}
+hr {
+    background-color: #ea7e7c;
+    margin-top:30px;
+}
+.weniv {
+    margin: 50px 0;
+}
+.weniv p {
+    font-size:10px;
+    margin:30px 0;
+    line-height: 1.5;
+}
