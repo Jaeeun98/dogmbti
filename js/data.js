@@ -4,45 +4,45 @@ const qnaList = [
     n : '1/12',
     q: '1. 친구가 파티 초대장을 보냈다. 나의 반응은?',
     a: [
-      { answer: 'a. 사람들 만날 생각에 벌써부터 드릉드릉한다.', type: ['ㄸ', 'tiger', 'dragon', 'chick'] },
-      { answer: 'b. 아.. 꼭 가야하나? 가기싫지만 막상 가면 잘논다.', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
-      { answer: 'c. 안읽씹.', type: ['sheep', 'pig' ] },
+      { answer: 'a. 사람들 만날 생각에 벌써부터 드릉드릉한다.', type: ['ENTJ','ENTP', 'ENFJ', 'ENFP', 'ESTJ', 'ESFJ', 'ESTP', 'ESFP'] },
+      { answer: 'b. 아.. 꼭 가야하나? 가기싫지만 막상 가면 잘논다.', type: ['INFJ', 'INFP', 'ISFJ', 'ISFP'] },
+      { answer: 'c. 안읽씹.', type: ['INTJ', 'INTP', 'ISTJ', 'ISTP' ] },
     ]
   },
   {
     n : '2/12',
     q: '2. 파티장에서 당신의 행동은? ',
     a: [
-      { answer: 'a. 여러 사람들이랑 얘기하느라 바쁘다.', type: ['mouse', 'rabbit', 'tiger', 'monkey'] },
-      { answer: 'b. 아는 애들 무리에 앉아 간간히 얘기한다.', type: ['cow', 'horse', 'snake', 'dog'] },
-      { answer: 'c. 구석에 앉아 핸드폰한다.', type: ['sheep', 'dragon', 'chick', 'pig'] },
+      { answer: 'a. 여러 사람들이랑 얘기하느라 바쁘다.', type: ['ENTJ','ENTP', 'ENFJ', 'ENFP', 'ESTJ', 'ESFJ', 'ESTP', 'ESFP'] },
+      { answer: 'b. 아는 애들 무리에 앉아 간간히 얘기한다.', type: ['INFJ', 'INFP', 'ISFJ', 'ISFP'] },
+      { answer: 'c. 구석에 앉아 핸드폰한다.', type: ['INTJ', 'INTP', 'ISTJ', 'ISTP' ] },
     ]
   },
   {
     n : '3/12',
     q: '3. 파티가 끝난 후 당신은 무슨 생각을 하나요?',
     a: [
-      { answer: 'a. 아까 친해진 애들이랑 2차갈 생각에 신났다.', type: ['cow', 'rabbit', 'tiger', 'dog', 'monkey'] },
-      { answer: 'b. 피곤하지만 나름 재밌었다는 생각을 한다.', type: ['sheep', 'chick', 'pig'] },
-      { answer: 'c. 무념으로 집에 간다.', type: ['mouse', 'horse', 'snake', 'dragon'] }
+      { answer: 'a. 아까 친해진 애들이랑 2차갈 생각에 신났다.', type: ['ENTJ','ENTP', 'ENFJ', 'ENFP', 'ESTJ', 'ESFJ', 'ESTP', 'ESFP'] },
+      { answer: 'b. 피곤하지만 나름 재밌었다는 생각을 한다.', type: ['INFJ', 'INFP', 'ISFJ', 'ISFP'] },
+      { answer: 'c. 무념으로 집에 간다.', type: ['INTJ', 'INTP', 'ISTJ', 'ISTP' ] }
     ]
   },
   {
     n : '4/12',
     q: '4. 시험이 한 달 남은 상황에서 당신의 행동은?',
     a: [
-      { answer: 'a. 한 달 동안 어떻게 공부할지 꼼꼼히 계획을 세운다.', type: ['cow', 'tiger', 'dragon' ] },
-      { answer: 'b. 대충 이때 공부 시작하면 되겠지~', type: ['sheep', 'dog', 'monkey', 'chick', 'pig' ] },
-      { answer: 'c. 별 생각 없다.', type: ['mouse', 'rabbit', 'horse', 'snake' ] },
+      { answer: 'a. 한 달 동안 어떻게 공부할지 꼼꼼히 계획을 세운다.', type: ['ESTJ', 'ESFJ', 'ISTJ', 'ISFJ'] },
+      { answer: 'b. 계획의 틀을 짜논다.', type: ['INTJ', 'ENTJ', 'INFJ', 'ENFJ' ] },
+      { answer: 'c. 별 생각 없다.', type: ['INTP', 'ENTP', 'INFP', 'ENFP', 'ISTP', 'ISFP', 'ESTP', 'ESFP'] },
     ]
   },
   {
     n : '5/12',
     q: '5. 시험이 2주 남았을 때 당신의 행동은?',
     a: [
-      { answer: 'a. 세워놓은 계획을 점검하며, 하던대로 공부한다.', type: ['cow', 'sheep', 'dog', 'dragon', 'chick' ] },
-      { answer: 'b. 계획 세우기를 시작한다.', type: ['mouse', 'rabbit', 'horse', 'pig']},
-      { answer: 'c. 대충 책 읽기를 시작한다.', type: ['tiger', 'snake', 'monkey'] },
+      { answer: 'a. 세워놓은 계획을 점검하며, 하던대로 공부한다.', type: ['ESTJ', 'ESFJ', 'ISTJ', 'ISFJ'] },
+      { answer: 'b. 계획 세우기를 시작한다.', type: ['INTJ', 'ENTJ', 'INFJ', 'ENFJ']},
+      { answer: 'c. 대충 책 읽기를 시작한다.', type: [ 'INTP', 'ENTP', 'INFP', 'ENFP','ISTP', 'ISFP', 'ESTP', 'ESFP'] },
     ]
   },
 
@@ -50,63 +50,63 @@ const qnaList = [
     n : '6/12',
     q: '6. 시험 하루전 당신의 마음은 어떤가요?',
     a: [
-      { answer: 'a. 마지막 점검을 통해 헷갈리는 부분을 다시 체크!', type: ['dragon', 'chick', 'pig' ] },
-      { answer: 'b. 모르는 부분을 외우고, 시험을 위해 일찍 잠에 든다.', type: ['mouse', 'rabbit', 'horse', 'dog' ] },
-      { answer: 'c. 발등에 불떨어짐, 밤샘 시작', type: ['cow', 'sheep', 'tiger', 'snake', 'monkey' ] },
+      { answer: 'a. 마지막 점검을 통해 헷갈리는 부분을 다시 체크!', type: ['ESTJ', 'ESFJ', 'ISTJ', 'ISFJ'] },
+      { answer: 'b. 모르는 부분을 외우고, 시험을 위해 일찍 잠에 든다.', type: ['INTJ', 'ENTJ', 'INFJ', 'ENFJ', 'ISTP', 'ISFP', 'ESTP', 'ESFP'] },
+      { answer: 'c. 발등에 불떨어짐, 밤샘 시작', type: ['INTP', 'ENTP', 'INFP', 'ENFP' ] },
     ]
   },
   {
     n : '7/12',
     q: '7. 이해 안 되는 공식이 있을 때, 당신의 행동은?',
     a: [
-      { answer: 'a. 공식이 괜히 공식이겠어. 걍 외우자', type: ['cow', 'sheep', 'pig' ] },
-      { answer: 'b. 나중에 선생님께 여쭤보기로하고 우선 넘긴다.', type: ['tiger', 'dragon', 'chick' ] },
-      { answer: 'c. ??? 이해 될 때 까지 공식에 집착한다.', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey' ] },
+      { answer: 'a. 공식이 괜히 공식이겠어. 걍 외우자', type: ['ISTJ', 'ISFJ', 'ESTJ', 'ESFJ', 'ISTP', 'ISFP', 'ESTP', 'ESFP'] },
+      { answer: 'b. 나중에 선생님께 여쭤보기로하고 우선 넘긴다.', type: ['INFJ', 'INFP', 'ENFJ', 'ENFP'] },
+      { answer: 'c. ??? 이해 될 때 까지 공식에 집착한다.', type: ['INTJ', 'INTP', 'ENTJ', 'ENTP'] },
     ]
   },
   {
     n : '8/12',
     q: '8. 로또를 산 당신, 어떤 상상을 하나요?',
     a: [
-      { answer: 'a. 당첨되라.. 당첨되라.. 당첨되라..', type: ['mouse', 'dragon', 'chick' ] },
-      { answer: 'b. 당첨되면 대출 갚고, 집사고...', type: ['rabbit', 'tiger', 'horse', 'snake', 'dog', 'monkey' ] },
-      { answer: 'c. 당첨되면 어디에 숨기지? 계좌 없는데 만들어주나? 누가 훔쳐가면 어떡하지? 되돌려 받을 수 있나? ', type: ['cow', 'sheep', 'pig' ] },
+      { answer: 'a. 당첨되길 바랄뿐 상상같은거 안한다.', type: ['ISTJ', 'ISFJ', 'ESTJ', 'ESFJ'] },
+      { answer: 'b. 당첨되면 대출 갚고, 집사고...', type: ['ISTP', 'ISFP', 'ESTP', 'ESFP'] },
+      { answer: 'c. 당첨되면 어디에 숨기지? 계좌 없는데 만들어주나? 누가 훔쳐가면 어떡하지? 되돌려 받을 수 있나? ', type: ['INTJ', 'INTP', 'ENTJ', 'ENTP', 'INFJ', 'INFP', 'ENFJ', 'ENFP'] },
     ]
   },
   {
     n : '9/12',
-    q: '9. 아래 중 가장 해보고 싶은 것은 무엇인가요?',
+    q: '9. 운동을 끝낸 후 거울을 보며 드는 생각은?',
     a: [
-      { answer: 'a. 좋은 곳에 취업하기', type: ['sheep', 'mouse', 'snake', 'chick' ] },
-      { answer: 'b. 대통령', type: ['cow', 'rabbit', 'horse', 'pig' ] },
-      { answer: 'c. 우주정복', type: ['tiger', 'dog', 'monkey', 'dragon' ] },
+      { answer: 'a. 거울 볼 시간이 어딨어 씻고 자야지..', type: ['ISTJ', 'ISFJ', 'ISTP', 'ISFP'] },
+      { answer: 'b. 열심히 한 나 자신 칭찬해^^', type: ['ESTJ', 'ESFJ', 'ESTP', 'ESFP' ] },
+      { answer: 'c. 복근 생긴 상상하며 이리저리 살펴본다.', type: ['INTJ', 'INTP', 'ENTJ', 'ENTP', 'INFJ', 'INFP', 'ENFJ', 'ENFP'] },
     ]
   },
   {
     n : '10/12',
     q: '10. 시험에 떨어진 당신, 가장 위로 되는 말은? ',
     a: [
-      { answer: 'a. 말 없이 꼭 안아준다', type: ['dragon', 'chick', 'pig'] },
-      { answer: 'b. 괜찮아 그 동안 많이 힘들었지, 고생했어', type: ['mouse', 'tiger', 'horse', 'snake' ] },
-      { answer: 'c. 이번 시험에 기존과 다른 유형이 나와서 더 어려웠대, 한 번 겪어봤으니까 다음번엔 합격할거야', type: ['cow', 'sheep', 'rabbit', 'dog', 'monkey' ] },
+      { answer: 'a. 말 없이 꼭 안아준다', type: ['ENFJ', 'ENFP', 'ESFJ', 'ESFP'] },
+      { answer: 'b. 괜찮아 그 동안 많이 힘들었지, 고생했어', type: ['INFJ', 'INFP', 'ISFJ', 'ISFP'] },
+      { answer: 'c. 이번 시험이 다른 유형이 나와서 더 어려웠대, 한 번 겪어봤으니까 다음번엔 합격할거야', type: ['INTJ', 'INTP', 'ENTJ', 'ENTP', 'ISTJ', 'ESTJ', 'ISTP', 'ESTP' },
     ]
   },
   {
     n : '11/12',
     q: '11. 약속 시간에 늦은 친구, 당신이 듣고 싶은 대답은? ',
     a: [
-      { answer: 'a. 진짜 미안해, 많이 기다렸지 미안해..', type: ['cow', 'dragon', 'chick', 'pig' ] },
-      { answer: 'b. 미안해, 다음엔 절대 안늦을게', type: ['sheep', 'mouse', 'rabbit', 'horse', 'dog'] },
-      { answer: 'c. 미안해, 오는 길에 사고가 나서 차가 막히더라고... 다음부턴 이런일 없을거야', type: ['tiger', 'snake', 'monkey' ] },
+      { answer: 'a. 진짜 미안해, 많이 기다렸지 미안해ㅜ', type: ['INFP', 'ENFP', 'ISFP', 'ESFP'] },
+      { answer: 'b. 미안해, 다음엔 절대 안늦을게', type: ['INFJ', 'ENFJ', 'ISFJ', 'ESFJ'] },
+      { answer: 'c. 미안해, 오는 길에 사고가 나는 바람에..', type: ['INTJ', 'INTP', 'ENTJ', 'ENTP', 'ISTJ', 'ESTJ', 'ISTP', 'ESTP'] },
     ]
   },
   {
     n : '12/12',
-    q: '12. 발표를 끝낸 후 듣고 싶은 말은?',
+    q: '12. 발표를 끝낸 후 가장 듣고 싶은 말은?',
     a: [
-      { answer: 'a. 고생했어! 준비하느라 힘들었지 열심히 준비한게 느껴지더라 굿굿', type: ['rabbit', 'horse', 'dragon', 'chick' ] },
-      { answer: 'b. 고생많았어, 진짜 잘했더라 역시~!', type: ['mouse', 'tiger', 'snake', 'dog', 'monkey'] },
-      { answer: 'c. 와 대박 어떻게 이런 생각을 했어? 이번 발표 1등은 너다', type: ['cow', 'sheep', 'pig'] },
+      { answer: 'a. 고생했어! 준비하느라 힘들었지 열심히 준비한게 느껴지더라 굿굿', type: ['INFP', 'ENFP', 'ISFP', 'ESFP'] },
+      { answer: 'b. 고생많았어, 진짜 잘했더라 역시~!', type: ['INFJ', 'ENFJ', 'ISFJ', 'ESFJ'] },
+      { answer: 'c. 와 대박 어떻게 이런 생각을 했어? 이번 발표 1등은 너다', type: ['INTJ', 'INTP', 'ENTJ', 'ENTP', 'ISTJ', 'ESTJ', 'ISTP', 'ESTP'] },
     ]
   }
 ]
