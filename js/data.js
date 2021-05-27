@@ -88,7 +88,7 @@ const qnaList = [
     a: [
       { answer: 'a. 말 없이 꼭 안아준다', type: ['ENFJ', 'ENFP', 'ESFJ', 'ESFP'] },
       { answer: 'b. 괜찮아 그 동안 많이 힘들었지, 고생했어', type: ['INFJ', 'INFP', 'ISFJ', 'ISFP'] },
-      { answer: 'c. 이번 시험이 다른 유형이 나와서 더 어려웠대, 한 번 겪어봤으니까 다음번엔 합격할거야', type: ['INTJ', 'INTP', 'ENTJ', 'ENTP', 'ISTJ', 'ESTJ', 'ISTP', 'ESTP' },
+      { answer: 'c. 이번 시험이 다른 유형이 나와서 더 어려웠대, 한 번 겪어봤으니까 다음번엔 합격할거야', type: ['INTJ', 'INTP', 'ENTJ', 'ENTP', 'ISTJ', 'ESTJ', 'ISTP', 'ESTP']},
     ]
   },
   {
