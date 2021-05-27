@@ -40,7 +40,7 @@ section {
 .wrapper {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     height: 100%;
     max-width: 500px;
     text-align: center;
@@ -95,7 +95,7 @@ hr {
     border-radius: 5px;
     background-color: #7F47DD;
     border:none;
-    margin-bottom:50px;
+    margin-bottom:70px;
 }
 
 .logo {
