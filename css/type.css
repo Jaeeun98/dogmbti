@@ -5,6 +5,9 @@ header {
 section {
     margin-top: 50px;
 }
+h2 {
+    padding:20px 0 40px 0;
+}
 .type {
     width:100%;
 }
@@ -29,7 +32,7 @@ section {
     margin-bottom:50px;
 }
 .pTitle {
-    padding: 30px;
+    padding: 20px;
 }
 .pTitle > h3 {
     font-family:'SDKukdetopokki-Lt';
@@ -49,4 +52,23 @@ section {
 }
 .pTitle .iconText {
     margin-bottom: 10px;
+}
+
+@media(max-width:500px) {
+    .typeTitle {
+        font-size:4vw;
+    }
+    .pTitle > h3 {
+        font-size:4vw;
+    }
+    .type div .dogIcon {
+        width:3vw;
+        height:3vw;
+        margin:0 1vw;
+    }
+    .pTitle .iconText, .pTitle p {
+        font-size:3vw;
+    }
+    
+    
 }

@@ -69,7 +69,7 @@ h3 {
     padding-top: 70px;
 }
 .btn {
-    width: 300px;
+    width: 90%;
     height:50px;
     border-style: none;
     border-radius: 10px;
@@ -100,4 +100,18 @@ hr {
 
 .logo {
     margin: 30px;
+}
+
+@media(max-width:500px) {
+    h1 {
+        font-size:10vw;
+    }
+    h2, .btn {
+        font-size:5vw;
+    }
+    
+    
+    h3 {
+        font-size:7vw;
+    }
 }
