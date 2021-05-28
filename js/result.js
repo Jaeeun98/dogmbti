@@ -1,6 +1,8 @@
 const mbtiType = localStorage.getItem('type');
 const resultType = document.querySelector('.type');
-const url = window.location.href;
+const copy = document.querySelector('.copyBtn');
+const face = document.querySelector('.faceBtn');
+const kakao = document.querySelector('.kakaoBtn');
 
 for(let i=0; i<infoList.length; i++){
     if(infoList[i].name === mbtiType){
@@ -38,4 +40,13 @@ function resultAdd(i){
         pdiv.appendChild(text);
 }
 
+copy.addEventListener('click', function(){
+    const url = window.location.href;
+    const tmp = document.createElement('input');
 
+    document.body.appendChild(tmp);
+    tmp.value = url;
+    tmp.select();
+    document.execCommand('copy');
+    document.body.removeChild(tmp);
+})

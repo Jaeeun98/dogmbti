@@ -1,8 +1,8 @@
 h1 {
     font-size:30px;
-    margin-bottom: 30px;;
+    margin-bottom: 30px;
 }
-.again button, .copyBtn, .kakaoBtn {
+.copyBtn, .kakaoBtn {
     color:#000;
 }
 .faceBtn {
@@ -16,6 +16,7 @@ hr {
     background-color: #ea7e7c;
     margin-top:50px;
 }
+
 .weniv {
     margin: 50px 0;
 }
@@ -23,4 +24,11 @@ hr {
     font-size:10px;
     margin:30px 0;
     line-height: 1.5;
+}
+
+@media(max-width:500px) {
+    h1 {
+        font-size:5vw;
+    }
+    
 }

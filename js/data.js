@@ -79,7 +79,7 @@ const qnaList = [
     a: [
       { answer: 'a. 거울 볼 시간이 어딨어 씻고 자야지..', type: ['ISTJ', 'ISFJ', 'ISTP', 'ISFP'] },
       { answer: 'b. 열심히 한 나 자신 칭찬해^^', type: ['ESTJ', 'ESFJ', 'ESTP', 'ESFP' ] },
-      { answer: 'c. 복근 생긴 상상하며 이리저리 살펴본다.', type: ['INTJ', 'INTP', 'ENTJ', 'ENTP', 'INFJ', 'INFP', 'ENFJ', 'ENFP'] },
+      { answer: 'c. 멋진 몸매를 상상하며 이리저리 살펴본다.', type: ['INTJ', 'INTP', 'ENTJ', 'ENTP', 'INFJ', 'INFP', 'ENFJ', 'ENFP'] },
     ]
   },
   {

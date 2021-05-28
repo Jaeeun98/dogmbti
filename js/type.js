@@ -3,7 +3,6 @@ const type = document.querySelector('.type');
 typeAdd();
 
 function typeAdd(){
-
     for(let i=0; i<infoList.length; i++){
         const div = document.createElement('div');
         const h2 = document.createElement('h2');
