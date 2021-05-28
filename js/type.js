@@ -11,12 +11,12 @@ function typeAdd(){
         const pdiv = document.createElement('div');
         const h3 = document.createElement('h3');
         const iconText = document.createElement('p');
-        const icon = '<img src="../img/pawprint.png" class="dogIcon">';
+        const icon = '<img src="img/pawprint.png" class="dogIcon">';
         const text = document.createElement('p');
 
         h2.classList.add('typeTitle');
         h2.innerHTML = infoList[i].title;
-        img.setAttribute('src', `../img/dog${i+1}.jpg`);
+        img.setAttribute('src', `img/dog${i+1}.jpg`);
         img.setAttribute('alt', infoList[i].alt);
         pdiv.classList.add('pTitle');
         h3.innerHTML = infoList[i].pTitle;
