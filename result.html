@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Dog MBTI, 당신의 강아지 유형은?" />
-    <meta property="og:description" content="만일 당신이 강아지라면 어떤 강아지일 것 같나요? 당신의 유형을 테스트 해보세요!" /> 
-    <meta property="og:image" content="img/thumbnail.jpg" />     
+    <meta property="og:description" content="만일 당신이 강아지라면 어떤 강아지일 것 같나요? 당신의 유형을 테스트 해보세요!" />    
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/type.css">
     <link rel="stylesheet" type="text/css" href="css/result.css">
     <script defer src="js/data.js"></script>
+    <script defer src="https://developers.kakao.com/sdk/js/kakao.js"></script>
     <script defer src="js/result.js"></script>
     <title>Document</title>
 </head>
@@ -43,7 +43,9 @@
                         <button class="faceBtn btn">Facebook 공유하기</button>
                     </div>
                     <div class="kakao">
-                        <button class="kakaoBtn btn">카카오톡 공유하기</button>
+                        <a id="kakao-link-btn" href="javascript:sendLink()">
+                            <button class="kakaoBtn btn">카카오톡 공유하기</button>
+                        </a>    
                     </div>
                 </div>
                 <div class="weniv">

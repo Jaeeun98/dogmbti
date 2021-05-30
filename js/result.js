@@ -1,8 +1,9 @@
 const mbtiType = localStorage.getItem('type');
 const resultType = document.querySelector('.type');
-const copy = document.querySelector('.copyBtn');
-const face = document.querySelector('.faceBtn');
-const kakao = document.querySelector('.kakaoBtn');
+const copyBtn = document.querySelector('.copyBtn');
+const faceBtn = document.querySelector('.faceBtn');
+const kakaoBtn = document.querySelector('.kakaoBtn');
+const url = window.location.href;
 
 for(let i=0; i<infoList.length; i++){
     if(infoList[i].name === mbtiType){
@@ -40,8 +41,7 @@ function resultAdd(i){
         pdiv.appendChild(text);
 }
 
-copy.addEventListener('click', function(){
-    const url = window.location.href;
+copyBtn.addEventListener('click', function(){
     const tmp = document.createElement('input');
 
     document.body.appendChild(tmp);
@@ -53,9 +53,33 @@ copy.addEventListener('click', function(){
     alert('주소가 복사되었습니다.');
 })
 
-face.addEventListener('click', function(){
-    const url = window.location.href;
+faceBtn.addEventListener('click', function(){
     const faceUrl = 'http://www.facebook.com/sharer/sharer.php?u=';
     const link = faceUrl + url;
     window.open(link);
+})
+
+Kakao.init('ad889e6617f998ed1867c00efb7e6a3a');
+
+kakaoBtn.addEventListener('click', function(){
+    function sendLink() {
+        Kakao.Link.sendDefault({
+          objectType: 'feed',
+          content: {
+            title: 'Dog MBTI',
+            description: '#당신이 강아지 유형은? #Dog #MBTI',
+            imageUrl:'img/thumbnail.jpg',
+            link: {
+              mobileWebUrl: 'https://dogmbtitest.netlify.app',
+              webUrl: 'https://dogmbtitest.netlify.app',
+            },
+          },
+          social: {
+            likeCount: 286,
+            commentCount: 45,
+            sharedCount: 845,
+          },
+        })
+      }
+
 })
