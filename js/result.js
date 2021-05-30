@@ -49,4 +49,13 @@ copy.addEventListener('click', function(){
     tmp.select();
     document.execCommand('copy');
     document.body.removeChild(tmp);
+
+    alert('주소가 복사되었습니다.');
+})
+
+face.addEventListener('click', function(){
+    const url = window.location.href;
+    const faceUrl = 'http://www.facebook.com/sharer/sharer.php?u=';
+    const link = faceUrl + url;
+    window.open(link);
 })
