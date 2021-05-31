@@ -60,26 +60,42 @@ faceBtn.addEventListener('click', function(){
 })
 
 Kakao.init('ad889e6617f998ed1867c00efb7e6a3a');
+//console.log(Kakao.isInitialized());
 
-kakaoBtn.addEventListener('click', function(){
-    function sendLink() {
-        Kakao.Link.sendDefault({
-          objectType: 'feed',
-          content: {
-            title: 'Dog MBTI',
-            description: '#당신이 강아지 유형은? #Dog #MBTI',
-            imageUrl:'img/thumbnail.jpg',
-            link: {
-              mobileWebUrl: 'https://dogmbtitest.netlify.app',
-              webUrl: 'https://dogmbtitest.netlify.app',
-            },
-          },
-          social: {
-            likeCount: 286,
-            commentCount: 45,
-            sharedCount: 845,
-          },
-        })
-      }
+function sendLink(){
+    
+  Kakao.Link.sendDefault({
+    objectType: 'feed',
+    content: {
+      title: '디저트 사진',
+      description: '아메리카노, 빵, 케익',
+      imageUrl:
+        'http://mud-kage.kakao.co.kr/dn/NTmhS/btqfEUdFAUf/FjKzkZsnoeE4o19klTOVI1/openlink_640x640s.jpg',
+      link: {
+        mobileWebUrl: 'https://dogmbtitest.netlify.app',
+        androidExecParams: 'test',
+      },
+    },
+    social: {
+      likeCount: 10,
+      commentCount: 20,
+      sharedCount: 30,
+    },
+    buttons: [
+      {
+        title: '웹으로 이동',
+        link: {
+          mobileWebUrl: 'https://dogmbtitest.netlify.app',
+        },
+      },
+      {
+        title: '앱으로 이동',
+        link: {
+          mobileWebUrl: 'https://dogmbtitest.netlify.app',
+        },
+      },
+    ]
+  });
+}
 
-})
+kakaoBtn.addEventListener('click', sendLink);
