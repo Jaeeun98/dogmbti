@@ -78,15 +78,15 @@ function sendLink(){
     },
     buttons: [
       {
-        title: '웹으로 이동',
+        title: '결과 보러가기',
         link: {
           mobileWebUrl: url,
         },
       },
       {
-        title: '앱으로 이동',
+        title: '테스트하러 가기',
         link: {
-          mobileWebUrl: url,
+          mobileWebUrl: 'https://dogmbtitest.netlify.app',
         },
       },
     ]
