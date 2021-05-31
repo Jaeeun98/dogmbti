@@ -80,13 +80,13 @@ function sendLink(){
       {
         title: '웹으로 이동',
         link: {
-          mobileWebUrl: 'https://dogmbtitest.netlify.app',
+          mobileWebUrl: url,
         },
       },
       {
         title: '앱으로 이동',
         link: {
-          mobileWebUrl: 'https://dogmbtitest.netlify.app',
+          mobileWebUrl: url,
         },
       },
     ]
