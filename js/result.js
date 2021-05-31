@@ -67,19 +67,14 @@ function sendLink(){
   Kakao.Link.sendDefault({
     objectType: 'feed',
     content: {
-      title: '디저트 사진',
-      description: '아메리카노, 빵, 케익',
+      title: 'Dog MBTI',
+      description: '당신의 멍BTI 유형은?!',
       imageUrl:
-        'http://mud-kage.kakao.co.kr/dn/NTmhS/btqfEUdFAUf/FjKzkZsnoeE4o19klTOVI1/openlink_640x640s.jpg',
+        'https://ifh.cc/g/fqOE4U.jpg',
       link: {
-        mobileWebUrl: 'https://dogmbtitest.netlify.app',
+        mobileWebUrl: url,
         androidExecParams: 'test',
       },
-    },
-    social: {
-      likeCount: 10,
-      commentCount: 20,
-      sharedCount: 30,
     },
     buttons: [
       {
