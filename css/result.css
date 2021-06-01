@@ -3,17 +3,17 @@ h1 {
     margin-bottom: 30px;
 }
 .copyBtn, .kakaoBtn {
-    color:#000;
+    color:#222;
 }
 .faceBtn {
     background-color: #3b5998;
     color:#fff;
 }
 .kakaoBtn {
-    background-color: #f1d900;
+    background-color: #f1f000;
 }
 hr {
-    background-color: #ea7e7c;
+    background-color: #7F47DD;
     margin-top:50px;
 }
 

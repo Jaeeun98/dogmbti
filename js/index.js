@@ -12,4 +12,6 @@ function setCookie(name, value, exp){
     num++;
 }
 
-console.log(document.cookie);
+function getCookie(name){
+    
+}
