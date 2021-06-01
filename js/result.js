@@ -63,7 +63,6 @@ Kakao.init('ad889e6617f998ed1867c00efb7e6a3a');
 //console.log(Kakao.isInitialized());
 
 function sendLink(){
-  const url = window.location.href;  
   Kakao.Link.sendDefault({
     objectType: 'feed',
     content: {
