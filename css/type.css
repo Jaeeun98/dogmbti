@@ -54,7 +54,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-@media(max-width:500px) {
+@media(max-width:499px) {
     .typeTitle {
         font-size:4vw;
     }
