@@ -13,7 +13,7 @@ h1 {
     background-color: #f1f000;
 }
 hr {
-    background-color: #7F47DD;
+    background-color: --main-color;
     margin-top:50px;
 }
 
