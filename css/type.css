@@ -13,14 +13,14 @@ h2 {
 }
 .type > div {
     width: 90%;
-    border:2px solid --main-color;
+    border:2px solid #7F47DD;
     margin: auto;
     border-radius: 5px;
     margin-bottom: 50px;
     background: #fff;
 }
 .type div h2 {
-    background-color: --main-color;
+    background-color: #7F47DD;
     color:#fff;
     padding:25px 0;
 }
