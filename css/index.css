@@ -98,21 +98,14 @@ hr {
     margin-bottom:70px;
 }
 
-.visitNum {
-    cursor: auto;
-}
-.visitNum, .logo {
+.logo {
     margin: auto;
     line-height: 50px;
 }
 
-.logo {
-    margin-top: 20px;
-}
-
 .logo a {
     color:#111f3f;
-    letter-spacing: 2px;
+
 }
 
 @media(max-width:499px) {

@@ -92,4 +92,15 @@ function sendLink(){
   });
 }
 
+//실시간 채팅
 kakaoBtn.addEventListener('click', sendLink);
+
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/611d3924d6e7610a49b0d28c/1fdd2eebq';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
