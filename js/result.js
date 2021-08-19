@@ -41,23 +41,23 @@ function resultAdd(i){
         pdiv.appendChild(text);
 }
 
-copyBtn.addEventListener('click', function(){
-    const tmp = document.createElement('input');
+function linkCopy(){
+  const tmp = document.createElement('input');
 
-    document.body.appendChild(tmp);
-    tmp.value = url;
-    tmp.select();
-    document.execCommand('copy');
-    document.body.removeChild(tmp);
+  document.body.appendChild(tmp);
+  tmp.value = url;
+  tmp.select();
+  document.execCommand('copy');
+  document.body.removeChild(tmp);
 
-    alert('주소가 복사되었습니다.');
-})
+  alert('주소가 복사되었습니다.');
+}
 
-faceBtn.addEventListener('click', function(){
-    const faceUrl = 'http://www.facebook.com/sharer/sharer.php?u=';
-    const link = faceUrl + url;
-    window.open(link);
-})
+function faceSendLink(){
+  const faceUrl = 'http://www.facebook.com/sharer/sharer.php?u=';
+  const link = faceUrl + url;
+  window.open(link);
+}
 
 Kakao.init('ad889e6617f998ed1867c00efb7e6a3a');
 //console.log(Kakao.isInitialized());
@@ -92,9 +92,12 @@ function sendLink(){
   });
 }
 
-//실시간 채팅
+copyBtn.addEventListener('click', linkCopy)
+faceBtn.addEventListener('click', faceSendLink)
 kakaoBtn.addEventListener('click', sendLink);
 
+
+//실시간 채팅
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){
     var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
